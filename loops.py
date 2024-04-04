@@ -25,3 +25,18 @@ def contagem_ate_numero_digitado():
     contador = contador + 1
 
 contagem_ate_numero_digitado()
+
+def criar_tauada_adicao():
+    #Exemplo com for
+    # for i in range(1, 11):
+    #     soma = 2 + i
+    #     print("2", "+" ,i, "=", soma)
+
+    #Exemplo com while
+    contador = 1
+    while(contador < 11):
+        soma = 2 + contador
+        print("2", "+" ,contador, "=", soma)
+        contador = contador + 1
+
+criar_tauada_adicao()
