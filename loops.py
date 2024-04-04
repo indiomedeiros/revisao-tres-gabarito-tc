@@ -40,3 +40,21 @@ def criar_tauada_adicao():
         contador = contador + 1
 
 criar_tauada_adicao()
+
+def criar_tabuada_multiplicacao():
+    numero_do_usuario = int(input("Digite um número inteiro: "))
+   #Exemplo com for
+    # for i in range(1, 11):
+    #     multiplicacao = numero_do_usuario * i
+    #     print(numero_do_usuario, "x" ,i, "=", multiplicacao)
+
+    #Exemplo com while
+    contador = 1
+    while(contador < 11):
+        multiplicacao = numero_do_usuario * contador
+        print(numero_do_usuario, "x" ,contador, "=", multiplicacao)
+        contador = contador + 1
+
+
+criar_tabuada_multiplicacao()
+   
