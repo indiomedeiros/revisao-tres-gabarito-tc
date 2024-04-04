@@ -14,3 +14,10 @@ def imprimir_primeiro_ultimo():
   print("4 -", nomes[-1])
 
 imprimir_primeiro_ultimo()
+
+def imprimir_segundo_terceiro():
+  nomes = ["João", "Maria", "Fulano", "Ciclano"]
+  print("2 -", nomes[1])
+  print("3 -", nomes[2])
+
+imprimir_segundo_terceiro()
