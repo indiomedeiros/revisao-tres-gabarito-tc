@@ -8,3 +8,9 @@ def imprimir_nomes():
 imprimir_nomes()
 
 
+def imprimir_primeiro_ultimo():
+  nomes = ["João", "Maria", "Fulano", "Ciclano"]
+  print("1 -", nomes[0])
+  print("4 -", nomes[-1])
+
+imprimir_primeiro_ultimo()
